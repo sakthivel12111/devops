@@ -1,0 +1,7 @@
+name: Hello World #work flow name
+on: [push]
+jobs:
+  hello: #name of the job
+    runs-on: ubuntu-latest
+    steps:
+      - runs: echo "Hi boiis"
